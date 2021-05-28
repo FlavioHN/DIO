@@ -1,0 +1,172 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preta);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/kimetsu450.jpg);
+
+    height: 550px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 7px 20px;
+    margin-right: 5px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Rodape */
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3px 30px 1px 40px;
+}
+
+.social-icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.social-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        
+    background-color: rgba(0,0,0,.50);
+    padding: 10px;
+    margin: 5px;
+
+    border-radius: 15%;
+}
+
+.subir-topo {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 13px;
+    margin-bottom: 5px;
+
+    border-radius: 15%;
+}
+
+.social-botao:hover {
+    background: gray;
+    color: black;
+}
+
+.subir-topo:hover {
+    background: gray;
+    color: black;
+}
+
+.assinatura {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    
+}
+
