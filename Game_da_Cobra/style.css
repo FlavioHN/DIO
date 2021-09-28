@@ -1,0 +1,75 @@
+/* === Globais === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: auto;
+    margin-top: -4rem;
+    padding: 0.5rem;
+    background: #363f5f;
+    border-radius: 7px 7px 0 0;
+}
+
+/* === Header === */
+
+header {
+    text-align: center;
+    padding: 0.5rem 0 0.5rem;
+
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 2.5rem;
+    color: #395f36;
+}
+
+/* === Footer === */
+
+footer {
+    color: #363f5f;
+    background: #c5c6c7;
+    
+    padding: 1.5rem 10.2rem 0.5rem;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 0.5rem;
+
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    font-size: 1.2rem;
+
+    opacity: 0.7;
+}
+
+.create {
+    margin-top: 0.7rem;
+}
+
+.signature {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.6rem;
+}
+
+#imagem {
+    width: 3.3rem;
+    height: 3.3rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+    
+    margin-top: 0.2rem;
+
+    opacity: 0.5;
+}
+
+#imagem:hover {
+    background: rgb(233, 136, 209);
+}
