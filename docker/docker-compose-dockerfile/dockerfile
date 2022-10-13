@@ -1,0 +1,10 @@
+# Web-server apache para pagina html
+
+FROM httpd:2.4
+
+RUN apt-get update && apt-get upgrade -y
+
+COPY ./web /usr/local/apache2/htdocs
+
+EXPOSE 80
+
