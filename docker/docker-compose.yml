@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  webserver:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: apache
+    container_name: webserver-apache
+    restart: always
+    tty: true
+#    networks:
+#      - webserver-network
+
+# Docker Networks
+#networks:
+#  webserver-network:
+#    driver: bridge
