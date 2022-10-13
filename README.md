@@ -9,3 +9,5 @@ Projetos Digital Innovation One
   IaC - Infraestrutura como codigo - Apache2
   
   Microserviços Shibakita
+
+  Docker compose + html para teste
