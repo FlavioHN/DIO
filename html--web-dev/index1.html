@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD docker</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <img src="img/gd.png" alt="logo ci/cd docker">
+        </div>
+        
+        <div class="content">
+            <div class="sobre">
+                <h1>Geração de Pipelines utilizando CI/CD do Gitlab para deploy de aplicação Docker</h1>
+                <p>Este materia visa a mostar os resultados obitidos de um projeto de estudo, onde é criado um deploy automatico de aplicação web utilizando ferramentas de desenvolvimento disponiveis.</p>
+                <p>Se esta pagina esta disponivel, é porque deu certo!</p>
+            </div>
+            <div class="servicos">
+                <h2>Tecnologias</h2>
+                <h3>HTML: Linguagem de Marcação de Hipertexto</h3>
+                <p>É o bloco de construção mais básico da web. Defina o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação ( CSS ) ou a funcionalidade/comportamento ( JavaScript ) de uma página da web.</p>
+
+                <h3>Docker Apache</h3>
+                <p>Para fins de desenvolvimento, utlizaremos a imagem httpd do docker, que é comumente coonhecido como Apache, para a criação de um servidor web, onde esta pagina esta salva e sendo disponibilizada.</p>
+                <blockquote cite="https://hub.docker.com/_/httpd">
+                    <p>O Apache HTTP Server, coloquialmente chamado de Apache, é um aplicativo de servidor Web notável por desempenhar um papel fundamental no crescimento inicial da World Wide Web. Originalmente baseado no servidor NCSA HTTPd, o desenvolvimento do Apache começou no início de 1995, depois que o trabalho no código NCSA parou. O Apache ultrapassou rapidamente o NCSA HTTPd como o servidor HTTP dominante e permaneceu como o servidor HTTP mais popular em uso desde abril de 1996.</p>
+                </blockquote>
+
+                <h3>GitLab</h3>
+                <p>O Git, é um sistema de controle de versionamento criado por ninguém menos que Linus Torvalds, para auxiliar o desenvolvimento de um grande projeto chamado Linux. Porém, devido à sua qualidade em gerenciar projetos com grandes equipes de trabalho em grupos distribuídos, ele acabou sendo adotado para outros projetos.</p>
+                <p>O GitLab assim como o GitHub, é uma plataforma para hospedagem de códigos, permitindo que os desenvolvedores trabalhem em projetos públicos e privados, seja ele open-source ou não.</p>
+                <p>Além dos recursos inclusos pelo próprio Git, o GitLab possui suporte para criação de Wikis do projeto, uma plataforma para gerenciamento de tarefas além de <a href="#cicd">integração e entrega contínuas (CI/CD)</a>.</p>
+                <p>Outro grande diferencial do GitLab em relação ao GitHub, é a possibilidade de instalá-lo em um servidor pessoal, ao invés de utilizá-lo em um servidor de terceiros. Ele está sobre a licença MIT e pode ser instalado através de seu <a href="https://about.gitlab.com/install/" target="_blank" rel="noopener noreferrer">site oficial</a>.</p>
+
+                <h3 id="cicd">CI/CD</h3>
+                <p>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português: integração e entrega contínuas. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados. Com a abordagem CI/CD é possível entregar aplicações com mais frequência aos clientes. Para tanto, regras de automação são aplicadas nas etapas de desenvolvimento de apps.</p>
+                <img src="img/pl.png" alt="etapas de desenvolvimento de pipelines">
+            </div>
+            
+            <div class="ferramentas">
+                <h3>Sequencia de desenvolvimento</h3>
+                <table>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Gerar</th>
+                        <th>Etapa</th>
+                    </tr>
+                    <tr>
+                        <th><img src="img/html.png" alt="logo html"></th>
+                        <td>Pagina web com informações sobre o processo desenvolvimento do projeto</td>
+                        <td>I</td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/docker.png" alt="logo docker"></th>
+                        <td>Build do servidor web com apache contendo a pagina html</td>
+                        <td>II</td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/gitlab.png" alt="logo gitlab"></th>
+                        <td>criação de pipeline para deploy de container docker</td>
+                        <td>III</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card">
+                <h2>Entre em contato</h2>
+                <form class="card-contat" action="" method="post">
+                    <div class="card-contat-area">
+                        <div class="card-contat-area-info">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name" autocomplete="off" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="card-contat-area-info">
+                            <label for="fone">Phone:</label>
+                            <input type="number" name="fone" id="fone" autocomplete="off" placeholder="Telefone">
+                        </div>
+                        <div class="card-contat-area-info">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="mail@exemple.com">
+                        </div>
+                        <div class="card-contat-area-info">
+                            <label for="description">Descrição:</label>
+                            <textarea name="description" id="description" cols="30" rows="10" placeholder="Descrever o que quiser"></textarea>
+                        </div>
+                    </div>
+                    <div class="card-contat-footer">
+                        <input type="submit" value="Enviar" class="submit">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="assignature">
+
+            </div>
+            <div class="social">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
