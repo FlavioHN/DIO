@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+
+
     <title>CI/CD docker</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
+            <h3><a href="#pipeline">Geração de pipelines</a></h3>
+            <h3><a href="#tecnologia">Tecnologias</a></h3>
+            <ol>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#docker">Docker</a></li>
+                <li><a href="#gitlab">GitLab</a></li>
+                <li><a href="#cicd">CI/CD</a></li>
+            </ol>
+            <h3><a href="#desenvolvimento">Desenvolvimento</a></h3>
+            <h3><a href="#contato">Contato</a></h3>
 
         </div>
     </div>
@@ -21,36 +36,36 @@
         
         <div class="content">
             <div class="sobre">
-                <h1 class="sobre-tl">Geração de Pipelines utilizando CI/CD do Gitlab <br>
+                <h1 class="sobre-tl" id="pipeline">Geração de Pipelines utilizando CI/CD do Gitlab <br>
                      para deploy de aplicação Docker</h1>
                 <p class="sobre-pg1">Este materia visa a mostrar os resultados obitidos de um projeto de estudo, onde é criado um deploy automatico de aplicação <br>
                      web utilizando ferramentas de desenvolvimento disponiveis.</p>
                 <p class="sobre-pg2">Se esta pagina esta disponivel, é porque deu certo!</p>
             </div>
             <div class="servicos">
-                <h2>Tecnologias</h2>
-                <h3>HTML: Linguagem de Marcação de Hipertexto</h3>
+                <h2 id="tec">Tecnologias</h2>
+                <h3 id="html">HTML: Linguagem de Marcação de Hipertexto</h3>
                 <p class="servicos-p">É o bloco de construção mais básico da web. Defina o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação ( CSS ) ou a funcionalidade/comportamento ( JavaScript ) de uma página da web.</p>
 
-                <h3>Docker Apache</h3>
+                <h3 id="docker">Docker Apache</h3>
                 <p class="servicos-p">Para fins de desenvolvimento, utlizaremos a imagem httpd do docker, que é comumente coonhecido como Apache, para a criação de um servidor web, onde esta pagina esta salva e sendo disponibilizada.</p>
                 <blockquote cite="https://hub.docker.com/_/httpd">
                     <p class="servicos-p">O Apache HTTP Server, coloquialmente chamado de Apache, é um aplicativo de servidor Web notável por desempenhar um papel fundamental no crescimento inicial da World Wide Web. Originalmente baseado no servidor NCSA HTTPd, o desenvolvimento do Apache começou no início de 1995, depois que o trabalho no código NCSA parou. O Apache ultrapassou rapidamente o NCSA HTTPd como o servidor HTTP dominante e permaneceu como o servidor HTTP mais popular em uso desde abril de 1996.</p>
                 </blockquote>
 
-                <h3>GitLab</h3>
+                <h3 id="gitlab">GitLab</h3>
                 <p class="servicos-p">O Git, é um sistema de controle de versionamento criado por ninguém menos que Linus Torvalds, para auxiliar o desenvolvimento de um grande projeto chamado Linux. Porém, devido à sua qualidade em gerenciar projetos com grandes equipes de trabalho em grupos distribuídos, ele acabou sendo adotado para outros projetos.</p>
                 <p class="servicos-p">O GitLab assim como o GitHub, é uma plataforma para hospedagem de códigos, permitindo que os desenvolvedores trabalhem em projetos públicos e privados, seja ele open-source ou não.</p>
                 <p class="servicos-p">Além dos recursos inclusos pelo próprio Git, o GitLab possui suporte para criação de Wikis do projeto, uma plataforma para gerenciamento de tarefas além de <a href="#cicd">integração e entrega contínuas (CI/CD)</a>.</p>
                 <p class="servicos-p">Outro grande diferencial do GitLab em relação ao GitHub, é a possibilidade de instalá-lo em um servidor pessoal, ao invés de utilizá-lo em um servidor de terceiros. Ele está sobre a licença MIT e pode ser instalado através de seu <a href="https://about.gitlab.com/install/" target="_blank" rel="noopener noreferrer">site oficial</a>.</p>
 
-                <h3>CI/CD</h3>
+                <h3 id="cicd">CI/CD</h3>
                 <p class="servicos-p">CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português: integração e entrega contínuas. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados. Com a abordagem CI/CD é possível entregar aplicações com mais frequência aos clientes. Para tanto, regras de automação são aplicadas nas etapas de desenvolvimento de apps.</p>
                 <img id="cicd" src="img/pl.png" alt="etapas de desenvolvimento de pipelines">
             </div>
             
             <div class="ferramentas">
-                <h3 class="ferramentas-title">Sequencia de desenvolvimento</h3>
+                <h3 class="ferramentas-title" id="desenvolvimento">Sequencia de desenvolvimento</h3>
                 <div class="ferramentas-table">
                     <table class="table">
                         <caption>Tabela de cronograma</caption>
@@ -78,7 +93,7 @@
                 </div>
             </div>
             <div class="formulario">
-                <h2>Entre em contato</h2>
+                <h2 id="contato">Entre em contato</h2>
                 <form class="card" action="" method="post">
                     <div class="card-contat">
                         <div class="card-contat-area">
@@ -107,12 +122,13 @@
         </div>
 
         <div class="footer">
-            <div>
-                <img src="img/cp.png" alt="">
-                <div class="assignature">
+            <div class="footer-box">
+                <div class="footer-signature">
+                    <p>Criado por <br>
+                        <span class="footer-signature-span">Flávio Pinheiro</span></p>
 
                 </div>
-                <div class="social">
+                <div class="footer-social">
     
                 </div>
             </div>
