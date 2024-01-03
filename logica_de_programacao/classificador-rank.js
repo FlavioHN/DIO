@@ -39,7 +39,7 @@ while (true) {
     
     // Verificar nova entrada
     
-    repetir = dados(`Cadastrar novo Niverl [SIM/NAO]: `);
+    repetir = dados(`Cadastrar novo nível [SIM/NAO]: `);
     if (repetir.toUpperCase() == 'NAO') {
         console.log("Obrigador por participar...")
         break;
